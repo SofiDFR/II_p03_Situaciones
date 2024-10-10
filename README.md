@@ -26,6 +26,10 @@
 ![sit_3](docs/situacion_003.gif)
 
 **Conclusiones:**
+- La **esfera**, al ser `cinemática`, no es afectada por las fuerzas físicas como la gravedad y no interactúa de forma automática con otros objetos a través de colisiones. Su movimiento y comportamiento depende
+  enteramente de `scripts` y `transformaciones manuales`
+- El **cubo**, como objeto físico con `Rigidbody`, responde a la gravedad y a las colisiones, pero no se moverá porque ya está en contacto con el plano
+- El **plano** sigue actuando como una superficie estática que impide que otros objetos atraviesen su `collider`
  
 ## Situación 4
 - El plano es un objeto físico. El cubo es un objeto físico y la esfera es física. En este caso, todos los objetos deben tener Rigidbody.
@@ -33,6 +37,8 @@
 ![sit_4](docs/situacion_004.gif)
 
 **Conclusiones:**
+- **Todos los objetos** son físicos y tienen `Rigidbody`.
+- La **esfera**, 
 
 ## Situación 5
 - El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con 10 veces más masa que el cubo. En este caso, todos los objetos deben tener Rigidbody.
