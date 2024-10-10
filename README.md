@@ -2,7 +2,7 @@
 ## Situación 1
 - El plano no es un objeto físico. El cubo es un objeto físico y la esfera no. En este caso, el plano y la esfera sólo tendrán collider, mientras que el cubo debe tener Rigidbody.
 
-![sit_1](situacion_001.gif)
+![sit_1](docs/situacion_001.gif)
 **Conclusiones:**
 - Un objeto necesita un `Rigidbody` para ser afectado por la gravedad y las fuerzas físicas en Unity
 - El `cubo`, al tener un *Rigidbody* y un *Collider*, debería caer sobre el plano, pero debido a su posición (0, 0.5, 0), este está justo encima del plano, por lo que no se mueve
