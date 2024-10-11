@@ -38,7 +38,7 @@
 
 **Conclusiones:**
 - **Todos los objetos** son físicos y tienen `Rigidbody`.
-- La **esfera**, 
+- La **esfera**, **cubo** y **plano** caen todos al vacío porque a todos les afecta la gravedad y ninguno de ellos es cinemático
 
 ## Situación 5
 - El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con 10 veces más masa que el cubo. En este caso, todos los objetos deben tener Rigidbody.
@@ -46,6 +46,8 @@
 ![sit_5](docs/situacion_005.gif)
 
 **Conclusiones:**
+- Si no hacemos que el plano sea un `RIgidboby`, todos caerían igual que en el ejercicio 5, así que aunque el ejercicio no lo indique, lo haremos cinemático para que no se mueva
+- La **esfera** mueve muy ligeramente el **cubo** al tener una masa `10 veces mayor`
 
 ## Situación 6
 - El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con 100 veces más masa que el cubo. En este caso, todos los objetos deben tener Rigidbody.
@@ -53,7 +55,9 @@
 ![sit_6](docs/situacion_006.gif)
 
 **Conclusiones:**
-
+- Si no hacemos que el plano sea un `RIgidboby`, todos caerían igual que en el ejercicio 5, así que aunque el ejercicio no lo indique, lo haremos cinemático para que no se mueva
+- La **esfera** mueve el **cubo** un poco más que en ell ejercicio anterior al tener una masa `100 veces mayor`
+  
 ## Situación 7
 - El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con fricción. En este caso, todos los objetos deben tener Rigidbody.
   
