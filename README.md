@@ -42,8 +42,11 @@
 
 ## Situación 5
 - El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con 10 veces más masa que el cubo. En este caso, todos los objetos deben tener Rigidbody.
-  
+* Sin `Is Kinemaric`
 ![sit_5](docs/situacion_005.gif)
+
+* Con `Is Kinematic`
+![sit_5_kinematic](docs/situacion_gravedad_005.gif)
 
 **Conclusiones:**
 - Si no hacemos que el plano sea un `RIgidboby`, todos caerían igual que en el ejercicio 5, así que aunque el ejercicio no lo indique, lo haremos cinemático para que no se mueva
@@ -51,8 +54,11 @@
 
 ## Situación 6
 - El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con 100 veces más masa que el cubo. En este caso, todos los objetos deben tener Rigidbody.
-  
+  * Sin `Is Kinemaric`
 ![sit_6](docs/situacion_006.gif)
+
+* Con `Is Kinematic`
+![sit_5_kinematic](docs/situacion_gravedad_006.gif)
 
 **Conclusiones:**
 - Si no hacemos que el plano sea un `RIgidboby`, todos caerían igual que en el ejercicio 5, así que aunque el ejercicio no lo indique, lo haremos cinemático para que no se mueva
@@ -64,6 +70,9 @@
 ![sit_7](docs/situacion_007.gif)
 
 **Conclusiones:**
+- Volvamos a quitarle `Is Kinematic` al plano para que caiga
+- Esta vez el **plano** y el **cubo** caen antes que la **esfera**
+- La **esfera** gracias a la opción `drag` (fricción), tarda mucho más en caer que los otros dos objetos
 
 ## Situación 8
 - El plano es un objeto físico. El cubo es un objeto físico y la esfera no es física y es Trigger. En este caso, todos los objetos deben tener Rigidbody.
