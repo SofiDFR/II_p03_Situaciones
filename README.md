@@ -68,6 +68,7 @@
 - El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con fricción. En este caso, todos los objetos deben tener Rigidbody.
   
 ![sit_7](docs/p03_sit_007.gif)
+![sit_7](docs/p03_sit_010.gif)
 
 **Conclusiones:**
 - Volvamos a quitarle `Is Kinematic` al plano para que caiga
