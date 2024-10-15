@@ -46,7 +46,7 @@
 ![sit_5](docs/situacion_005.gif)
 
 * Con `Is Kinematic`
-![sit_5_kinematic](docs/situacion_gravedad_005.gif)
+![sit_5_kinematic](docs/p03_sit_005.gif)
 
 **Conclusiones:**
 - Si no hacemos que el plano sea un `RIgidboby`, todos caerían igual que en el ejercicio 5, así que aunque el ejercicio no lo indique, lo haremos cinemático para que no se mueva
@@ -58,7 +58,7 @@
 ![sit_6](docs/situacion_006.gif)
 
 * Con `Is Kinematic`
-![sit_5_kinematic](docs/situacion_gravedad_006.gif)
+![sit_5_kinematic](docs/p03_sit_006.gif)
 
 **Conclusiones:**
 - Si no hacemos que el plano sea un `RIgidboby`, todos caerían igual que en el ejercicio 5, así que aunque el ejercicio no lo indique, lo haremos cinemático para que no se mueva
@@ -67,7 +67,7 @@
 ## Situación 7
 - El plano es un objeto físico. El cubo es un objeto físico y la esfera es física con fricción. En este caso, todos los objetos deben tener Rigidbody.
   
-![sit_7](docs/situacion_007.gif)
+![sit_7](docs/p03_sit_007.gif)
 
 **Conclusiones:**
 - Volvamos a quitarle `Is Kinematic` al plano para que caiga
@@ -77,13 +77,14 @@
 ## Situación 8
 - El plano es un objeto físico. El cubo es un objeto físico y la esfera no es física y es Trigger. En este caso, todos los objetos deben tener Rigidbody.
   
-![sit_8](docs/situacion_008.gif)
+![sit_8](docs/p03_sit_008.gif)
 
 **Conclusiones:**
-
+La esfera no cae ya que no es físico
 ## Situación 9
 - El plano es un objeto físico. El cubo es un objeto físico y la esfera es física y es Trigger. En este caso, todos los objetos deben tener Rigidbody.
   
-![sit_9](docs/situacion_009.gif)
+![sit_9](docs/p03_sit_009.gif)
 
 **Conclusiones:**
+La esfera atraviesa el resto de objetos
